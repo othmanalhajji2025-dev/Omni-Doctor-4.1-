@@ -1,0 +1,401 @@
+[
+  {
+    "eventId": "se_mtc40vsj_mpegg",
+    "timestamp": "2026-08-27T22:44:11.635Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 88,
+      "hasVitals": false,
+      "sessionId": "sess_bo9qvn"
+    }
+  },
+  {
+    "eventId": "se_mtc3m5i6_1dk78",
+    "timestamp": "2026-08-27T22:32:44.382Z",
+    "riskLevel": "EMERGENCY",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-EMERG-CARDIO-01",
+        "category": "CARDIOVASCULAR",
+        "trigger": "ألم في الصدر مع صعوبة حادة أو ضيق في التنفس",
+        "riskLevel": "EMERGENCY"
+      },
+      {
+        "ruleId": "RULE-EMERG-RESP-STRIDOR",
+        "category": "RESPIRATORY",
+        "trigger": "عدم القدرة على التقاط النفس، صوت صرير شهيقي، أو تغير لون الشفتين للأزرق",
+        "riskLevel": "EMERGENCY"
+      }
+    ],
+    "actionTaken": "EMERGENCY_OVERRIDE",
+    "anonymizedContext": {
+      "symptomCategory": "CARDIOVASCULAR",
+      "characterCount": 44,
+      "hasVitals": false,
+      "sessionId": "sess_rpeyxg"
+    }
+  },
+  {
+    "eventId": "se_mtc3lu5q_surxw",
+    "timestamp": "2026-08-27T22:32:29.678Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-LOW-COMMON-COLD",
+        "category": "RESPIRATORY",
+        "trigger": "سيلان الأنف والعطاس مع احتقان حلق خفيف دون حمى عالية أو ضيق في التنفس",
+        "riskLevel": "LOW"
+      }
+    ],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 36,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lu5p_2hen7",
+    "timestamp": "2026-08-27T22:32:29.677Z",
+    "riskLevel": "MODERATE",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-MOD-GASTROENTERITIS",
+        "category": "ACUTE_ABDOMEN",
+        "trigger": "إسهال مائي ومغص بطني مع قدرة على شرب السوائل وغياب علامات الجفاف الشديد",
+        "riskLevel": "MODERATE"
+      }
+    ],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "ACUTE_ABDOMEN",
+      "characterCount": 57,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lu5o_d3fxe",
+    "timestamp": "2026-08-27T22:32:29.676Z",
+    "riskLevel": "HIGH",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-HIGH-DVT",
+        "category": "CARDIOVASCULAR",
+        "trigger": "انتفاخ ملحوظ في ساق واحدة فقط مع ألم بربلة الساق بعد سفر طويل أو عملية جراحية",
+        "riskLevel": "HIGH"
+      }
+    ],
+    "actionTaken": "SAFETY_WARNING",
+    "anonymizedContext": {
+      "symptomCategory": "CARDIOVASCULAR",
+      "characterCount": 56,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lu5o_xcgry",
+    "timestamp": "2026-08-27T22:32:29.676Z",
+    "riskLevel": "URGENT",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-URGENT-RENAL-COLIC",
+        "category": "ACUTE_ABDOMEN",
+        "trigger": "ألم تشنجي حاد بالخاصرة يمتد للمغبن مع تغير لون البول للوردي أو الأحمر",
+        "riskLevel": "URGENT"
+      }
+    ],
+    "actionTaken": "SAFETY_WARNING",
+    "anonymizedContext": {
+      "symptomCategory": "ACUTE_ABDOMEN",
+      "characterCount": 52,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lu5n_r1t77",
+    "timestamp": "2026-08-27T22:32:29.675Z",
+    "riskLevel": "URGENT",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-URGENT-PAIN-SEVERE",
+        "category": "GENERAL",
+        "trigger": "ألم شديد جداً لا يطاق مصنف بدرجة 8 أو 9 أو 10 دون علامات صدمة وعائية",
+        "riskLevel": "URGENT"
+      }
+    ],
+    "actionTaken": "SAFETY_WARNING",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 45,
+      "hasVitals": false,
+      "painScale": 9
+    }
+  },
+  {
+    "eventId": "se_mtc3lu5m_vg8rt",
+    "timestamp": "2026-08-27T22:32:29.674Z",
+    "riskLevel": "EMERGENCY",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-EMERG-NEURO-FAST",
+        "category": "NEUROLOGICAL",
+        "trigger": "ارتخاء مفاجئ في جانب من الوجه، عجز عن رفع الذراع، أو تلعثم مفاجئ في النطق",
+        "riskLevel": "EMERGENCY"
+      }
+    ],
+    "actionTaken": "EMERGENCY_OVERRIDE",
+    "anonymizedContext": {
+      "symptomCategory": "NEUROLOGICAL",
+      "characterCount": 73,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lu5k_sv3kf",
+    "timestamp": "2026-08-27T22:32:29.672Z",
+    "riskLevel": "EMERGENCY",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-EMERG-CARDIO-01",
+        "category": "CARDIOVASCULAR",
+        "trigger": "ألم في الصدر مع صعوبة حادة أو ضيق في التنفس",
+        "riskLevel": "EMERGENCY"
+      }
+    ],
+    "actionTaken": "EMERGENCY_OVERRIDE",
+    "anonymizedContext": {
+      "symptomCategory": "CARDIOVASCULAR",
+      "characterCount": 59,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lobr_i3jsz",
+    "timestamp": "2026-08-27T22:32:22.119Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-LOW-COMMON-COLD",
+        "category": "RESPIRATORY",
+        "trigger": "سيلان الأنف والعطاس مع احتقان حلق خفيف دون حمى عالية أو ضيق في التنفس",
+        "riskLevel": "LOW"
+      }
+    ],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 36,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lobq_hxg0w",
+    "timestamp": "2026-08-27T22:32:22.118Z",
+    "riskLevel": "MODERATE",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-MOD-GASTROENTERITIS",
+        "category": "ACUTE_ABDOMEN",
+        "trigger": "إسهال مائي ومغص بطني مع قدرة على شرب السوائل وغياب علامات الجفاف الشديد",
+        "riskLevel": "MODERATE"
+      }
+    ],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "ACUTE_ABDOMEN",
+      "characterCount": 57,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lobp_0qo2a",
+    "timestamp": "2026-08-27T22:32:22.117Z",
+    "riskLevel": "HIGH",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-HIGH-DVT",
+        "category": "CARDIOVASCULAR",
+        "trigger": "انتفاخ ملحوظ في ساق واحدة فقط مع ألم بربلة الساق بعد سفر طويل أو عملية جراحية",
+        "riskLevel": "HIGH"
+      }
+    ],
+    "actionTaken": "SAFETY_WARNING",
+    "anonymizedContext": {
+      "symptomCategory": "CARDIOVASCULAR",
+      "characterCount": 56,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lobn_cq0rl",
+    "timestamp": "2026-08-27T22:32:22.115Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 52,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lobm_ryyiv",
+    "timestamp": "2026-08-27T22:32:22.114Z",
+    "riskLevel": "URGENT",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-URGENT-PAIN-SEVERE",
+        "category": "GENERAL",
+        "trigger": "ألم شديد جداً لا يطاق مصنف بدرجة 8 أو 9 أو 10 دون علامات صدمة وعائية",
+        "riskLevel": "URGENT"
+      }
+    ],
+    "actionTaken": "SAFETY_WARNING",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 45,
+      "hasVitals": false,
+      "painScale": 9
+    }
+  },
+  {
+    "eventId": "se_mtc3lobl_vzqtv",
+    "timestamp": "2026-08-27T22:32:22.113Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 73,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3lobk_zfccy",
+    "timestamp": "2026-08-27T22:32:22.112Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 59,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3ko7o_pcg60",
+    "timestamp": "2026-08-27T22:31:35.316Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-LOW-COMMON-COLD",
+        "category": "RESPIRATORY",
+        "trigger": "سيلان الأنف والعطاس مع احتقان حلق خفيف دون حمى عالية أو ضيق في التنفس",
+        "riskLevel": "LOW"
+      }
+    ],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 36,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3ko7o_xzg73",
+    "timestamp": "2026-08-27T22:31:35.316Z",
+    "riskLevel": "MODERATE",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-MOD-GASTROENTERITIS",
+        "category": "ACUTE_ABDOMEN",
+        "trigger": "إسهال مائي ومغص بطني مع قدرة على شرب السوائل وغياب علامات الجفاف الشديد",
+        "riskLevel": "MODERATE"
+      }
+    ],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "ACUTE_ABDOMEN",
+      "characterCount": 57,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3ko7n_1bi55",
+    "timestamp": "2026-08-27T22:31:35.315Z",
+    "riskLevel": "HIGH",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-HIGH-DVT",
+        "category": "CARDIOVASCULAR",
+        "trigger": "انتفاخ ملحوظ في ساق واحدة فقط مع ألم بربلة الساق بعد سفر طويل أو عملية جراحية",
+        "riskLevel": "HIGH"
+      }
+    ],
+    "actionTaken": "SAFETY_WARNING",
+    "anonymizedContext": {
+      "symptomCategory": "CARDIOVASCULAR",
+      "characterCount": 56,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3ko7m_a1pnb",
+    "timestamp": "2026-08-27T22:31:35.314Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 52,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3ko7l_xna48",
+    "timestamp": "2026-08-27T22:31:35.313Z",
+    "riskLevel": "URGENT",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-URGENT-PAIN-SEVERE",
+        "category": "GENERAL",
+        "trigger": "ألم شديد جداً لا يطاق مصنف بدرجة 8 أو 9 أو 10 دون علامات صدمة وعائية",
+        "riskLevel": "URGENT"
+      }
+    ],
+    "actionTaken": "SAFETY_WARNING",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 45,
+      "hasVitals": false,
+      "painScale": 9
+    }
+  },
+  {
+    "eventId": "se_mtc3ko7l_bwnac",
+    "timestamp": "2026-08-27T22:31:35.313Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 73,
+      "hasVitals": false
+    }
+  },
+  {
+    "eventId": "se_mtc3ko7j_x01au",
+    "timestamp": "2026-08-27T22:31:35.311Z",
+    "riskLevel": "LOW",
+    "triggeredRules": [],
+    "actionTaken": "ROUTINE_MONITOR",
+    "anonymizedContext": {
+      "symptomCategory": "GENERAL",
+      "characterCount": 59,
+      "hasVitals": false
+    }
+  }
+]

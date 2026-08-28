@@ -1,0 +1,6 @@
+{
+  "name": "OmniDoctor AI",
+  "description": "منصة ذكاء طبي سريرية متكاملة تتضمن نظام Medical RAG السريري بمستودع مصادر معتمدة وقاعدة بيانات متجهات ونظام استشهادات موثقة تمنع الهلوسة، ومحرك الأمان السريري المستقل (Clinical Safety Engine) بقاطع طوارئ فوري، وطبقة استدلال سريري (7-Step Clinical Reasoning Engine) وفق إطار OLDCARTS، ونظام صلاحيات متعدد المستويات (RBAC).",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
